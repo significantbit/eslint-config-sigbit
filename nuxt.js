@@ -33,6 +33,18 @@ module.exports = {
 
     // https://eslint.org/docs/rules/max-len
     "max-len": ["error", { code: 150 }],
+    
+    // Structure module imports
+    "import/order": ["error", {
+      "pathGroups": [
+        {
+          "pattern": "@/components/**",
+          "group": "external",
+          "position": "after"
+        }
+      ],
+      "newlines-between": "always"
+    }],
 
     // https://github.com/vuejs/eslint-plugin-vue/blob/master/docs/rules/no-v-html.md
     "vue/no-v-html": "off",
