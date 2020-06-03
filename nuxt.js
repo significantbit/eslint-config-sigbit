@@ -38,10 +38,15 @@ module.exports = {
     "import/order": ["error", {
       "pathGroups": [
         {
-          "pattern": "@/components/**",
+          "pattern": "@/composables/**",
           "group": "external",
           "position": "after"
-        }
+        },
+        {
+          pattern: '@/components/**',
+          group: 'external',
+          position: 'after',
+        },
       ],
       "newlines-between": "always"
     }],
