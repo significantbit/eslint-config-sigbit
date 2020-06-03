@@ -62,6 +62,7 @@ module.exports = {
     "@typescript-eslint/ban-ts-ignore": "off",
 
     // https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-unused-vars.md
-    "@typescript-eslint/no-unused-vars": "warn"
+    "@typescript-eslint/no-unused-vars": "off",
+    "no-unused-vars",
   }
 }
