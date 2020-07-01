@@ -4,7 +4,7 @@
 ## Usage
 Add `eslint` and this config to your project:
 ```sh
-$ yarn add eslint "significantbit/eslint-config-sigbit#release" -D
+$ yarn add eslint "significantbit/eslint-config-sigbit#<release>" -D
 ```
 
 Use default config:
