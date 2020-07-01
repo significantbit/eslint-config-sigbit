@@ -4,7 +4,7 @@
 ## Usage
 Add `eslint` and this config to your project:
 ```sh
-$ yarn add eslint significantbit/eslint-config-sigbit -D
+$ yarn add eslint "significantbit/eslint-config-sigbit#release" -D
 ```
 
 Use default config:
@@ -13,7 +13,7 @@ Use default config:
 module.exports = {
   root: true,
   extends: [
-    "sigbit"
+    'sigbit'
   ]
 }
 ```
@@ -24,7 +24,7 @@ Use specific config:
 module.exports = {
   root: true,
   extends: [
-    "sigbit/nuxt"
+    'sigbit/nuxt'
   ]
 }
 ```
