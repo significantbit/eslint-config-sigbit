@@ -38,9 +38,9 @@ module.exports = {
     "import/order": ["error", {
       "pathGroups": [
         {
-          "pattern": "@/composables/**",
-          "group": "external",
-          "position": "after"
+          pattern: "@/composables/**",
+          group: "external",
+          position: "after"
         },
         {
           pattern: '@/components/**',
