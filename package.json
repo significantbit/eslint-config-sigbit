@@ -5,7 +5,7 @@
   "author": "Jacob Andersson <jacob@sigbit.se>",
   "license": "MIT",
   "dependencies": {
-    "@nuxtjs/eslint-config-typescript": "^4.0.0"
+    "@nuxtjs/eslint-config-typescript": "*"
   },
   "renovate": {
     "schedule": "before 3am on the first day of the month"
